@@ -1,0 +1,138 @@
+{
+  "uid" : "cc8a2dfe3cfd6777",
+  "name" : "test12",
+  "fullName" : "test1.Test1.test12",
+  "historyId" : "7754a315e8296863538f46356fba3b0",
+  "time" : {
+    "start" : 1616395112031,
+    "stop" : 1616395112063,
+    "duration" : 32
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1616395112029,
+      "stop" : 1616395112029,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "aaa",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "bbbbb",
+      "time" : {
+        "start" : 1616395112059,
+        "stop" : 1616395112061,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test12"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2862@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试1"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "82ed7d332869aead",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/82ed7d332869aead",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685777,
+          "stop" : 1616394685804,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cc8a2dfe3cfd6777.json",
+  "parameterValues" : [ "standalone" ]
+}

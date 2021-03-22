@@ -1,0 +1,96 @@
+{
+  "uid" : "2bdb44944b2cc5e3",
+  "name" : "test22",
+  "fullName" : "test1.Test3.test22",
+  "historyId" : "99472b386cdc252586125eead06e0e68",
+  "time" : {
+    "start" : 1616395112268,
+    "stop" : 1616395112268,
+    "duration" : 0
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test3"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test3"
+  }, {
+    "name" : "testMethod",
+    "value" : "test22"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test3"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2862@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试2"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature2"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ea5e21d48def8ea3",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/ea5e21d48def8ea3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685990,
+          "stop" : 1616394685991,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2bdb44944b2cc5e3.json",
+  "parameterValues" : [ "standalone" ]
+}

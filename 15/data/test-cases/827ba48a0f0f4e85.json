@@ -1,0 +1,147 @@
+{
+  "uid" : "827ba48a0f0f4e85",
+  "name" : "test21",
+  "fullName" : "test1.Test1.test21",
+  "historyId" : "9a97a759cc33dfc6ce2e81c498e29ac7",
+  "time" : {
+    "start" : 1616395112184,
+    "stop" : 1616395112185,
+    "duration" : 1
+  },
+  "description" : "{tUser.desc}",
+  "descriptionHtml" : "<p>{tUser.desc}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1616395112181,
+      "stop" : 1616395112181,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "{tUser.desc}",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试3",
+      "time" : {
+        "start" : 1616395112185,
+        "stop" : 1616395112185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tUser",
+        "value" : "TUser{name='zw3', age=14, desc='测试3'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test21"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2862@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "{tUser.desc}"
+  }, {
+    "name" : "story",
+    "value" : "测试2"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TUser{name='zw3', age=14, desc='测试3'}"
+  }, {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cd3916b107b371f3",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/cd3916b107b371f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685911,
+          "stop" : 1616394685912,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "827ba48a0f0f4e85.json",
+  "parameterValues" : [ "TUser{name='zw3', age=14, desc='测试3'}", "standalone" ]
+}

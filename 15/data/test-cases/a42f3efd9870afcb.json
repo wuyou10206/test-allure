@@ -1,0 +1,118 @@
+{
+  "uid" : "a42f3efd9870afcb",
+  "name" : "test22",
+  "fullName" : "test1.Test2.test22",
+  "historyId" : "5bc0445de624b04c3897732e309b118c",
+  "time" : {
+    "start" : 1616395112021,
+    "stop" : 1616395112021,
+    "duration" : 0
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1616395112022,
+      "stop" : 1616395112022,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7814a1ab89d5c534",
+      "name" : "t-lll",
+      "source" : "7814a1ab89d5c534.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test22"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "hahahahaha"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2862@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试2"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a38d988eec08c6a3",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/a38d988eec08c6a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685770,
+          "stop" : 1616394685770,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a42f3efd9870afcb.json",
+  "parameterValues" : [ "standalone" ]
+}
