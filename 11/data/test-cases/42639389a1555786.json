@@ -1,0 +1,76 @@
+{
+  "uid" : "42639389a1555786",
+  "name" : "BBBB",
+  "fullName" : "test2.Test1.test11",
+  "historyId" : "cb294f9a548f284b62026757e4e940a",
+  "time" : {
+    "start" : 1616378623541,
+    "stop" : 1616378623542,
+    "duration" : 1
+  },
+  "description" : "sss",
+  "descriptionHtml" : "<p>sss</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test2.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test2.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test11"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "HEHEHEH"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "14461@localhost.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试1"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic2"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42639389a1555786.json",
+  "parameterValues" : [ "standalone" ]
+}

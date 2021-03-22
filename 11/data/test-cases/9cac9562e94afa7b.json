@@ -1,0 +1,98 @@
+{
+  "uid" : "9cac9562e94afa7b",
+  "name" : "test22",
+  "fullName" : "test1.Test2.test22",
+  "historyId" : "5bc0445de624b04c3897732e309b118c",
+  "time" : {
+    "start" : 1616378623672,
+    "stop" : 1616378623672,
+    "duration" : 0
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1616378623673,
+      "stop" : 1616378623673,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "21e639ba20014bfd",
+      "name" : "t-lll",
+      "source" : "21e639ba20014bfd.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test2"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test2"
+  }, {
+    "name" : "testMethod",
+    "value" : "test22"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "hahahahaha"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "14461@localhost.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试2"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9cac9562e94afa7b.json",
+  "parameterValues" : [ "standalone" ]
+}
