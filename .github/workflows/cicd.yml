@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.CR_PAT_ZW }}
-          PUBLISH_BRANCH: $GITHUB_REF
+          PUBLISH_BRANCH: ${{ GITHUB_REF }}
           PUBLISH_DIR: allure-history
 #  delete_artifact:
 #    needs: [fesql_auto_test_level_0]
