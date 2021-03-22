@@ -1,9 +1,0 @@
-[ {
-  "buildOrder" : 9,
-  "reportUrl" : "https://wuyou10206.github.io/test-allure/9/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 20,
-    "retry" : 0
-  }
-} ]
