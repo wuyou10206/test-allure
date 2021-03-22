@@ -40,7 +40,7 @@ public class Test2 implements ITest{
     public void test21(){
         System.out.println("111");
         log.info("ssss");
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
 
     }
     @Story("测试2")
