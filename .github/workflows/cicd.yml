@@ -29,18 +29,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.CR_PAT_ZW }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-#  delete_artifact:
-#    needs: [fesql_auto_test_level_0]
-#    runs-on: ubuntu-latest
-#    if: always()
-#    steps:
-#      - uses: geekyeggo/delete-artifact@v1
-#        with:
-#          name: |
-#            fedb
-#            sql_sdk_test
-#            sql_cluster_test
-#            libsql_jsdk.so
-#            sql_pysdk
-#            python-whl
-#          failOnError: false
