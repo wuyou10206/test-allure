@@ -1,0 +1,94 @@
+{
+  "uid" : "7592d71de95c4d16",
+  "name" : "test",
+  "fullName" : "test1.Test4.test",
+  "historyId" : "928411e5dc1c2b6f1246b2b1bb2af61b",
+  "time" : {
+    "start" : 1616395377404,
+    "stop" : 1616395377424,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test4"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test4"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test4"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2839@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ccff9cb53e46d3d3",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/15//#testresult/ccff9cb53e46d3d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616395111720,
+          "stop" : 1616395111741,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "1556e13f6c1bf375",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/1556e13f6c1bf375",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685520,
+          "stop" : 1616394685536,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7592d71de95c4d16.json",
+  "parameterValues" : [ "standalone" ]
+}

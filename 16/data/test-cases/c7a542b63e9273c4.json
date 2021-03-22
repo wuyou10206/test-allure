@@ -1,0 +1,105 @@
+{
+  "uid" : "c7a542b63e9273c4",
+  "name" : "test12",
+  "fullName" : "test2.Test1.test12",
+  "historyId" : "62cef1897690c47880e3bbef71a4e9da",
+  "time" : {
+    "start" : 1616395377587,
+    "stop" : 1616395377587,
+    "duration" : 0
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test2.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test2.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test12"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "HEHEHEH"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-665"
+  }, {
+    "name" : "thread",
+    "value" : "2839@fv-az196-665.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试1"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic2"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "38e10ca248c2eacf",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/15//#testresult/38e10ca248c2eacf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616395111906,
+          "stop" : 1616395111906,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "132588be08e84a6b",
+        "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/132588be08e84a6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616394685679,
+          "stop" : 1616394685680,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c7a542b63e9273c4.json",
+  "parameterValues" : [ "standalone" ]
+}
