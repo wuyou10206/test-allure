@@ -3,11 +3,11 @@ on: [push, pull_request]
 jobs:
   run_test:
     runs-on: ubuntu-latest
-#    container:
-#      image: ghcr.io/4paradigm/centos6_gcc7_fesql:0.0.1-legacy
-#      credentials:
-#        username: ${{ github.actor }}
-#        password: ${{ secrets.CR_PAT_ZW }}
+    container:
+      image: ghcr.io/4paradigm/centos6_gcc7_fesql:0.0.1-legacy
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.CR_PAT_ZW }}
     steps:
       - uses: actions/checkout@v1
       - run: echo "branch:$GITHUB_REF"
