@@ -1,0 +1,309 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test",
+    "uid" : "9742494e74678520",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616381506928,
+      "stop" : 1616381506950,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "standalone" ]
+  }, {
+    "name" : "test1",
+    "uid" : "b5567e8f3627ca21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616381507084,
+      "stop" : 1616381507085,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "standalone" ]
+  }, {
+    "name" : "测试Epic2",
+    "children" : [ {
+      "name" : "测试Feature",
+      "children" : [ {
+        "name" : "测试1",
+        "children" : [ {
+          "name" : "BBBB",
+          "uid" : "fd40c9535546b7ff",
+          "parentUid" : "878c130299b8b668c918a401e16fcc8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507114,
+            "stop" : 1616381507116,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test12",
+          "uid" : "e28f2eb15099228d",
+          "parentUid" : "878c130299b8b668c918a401e16fcc8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507124,
+            "stop" : 1616381507124,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        } ],
+        "uid" : "878c130299b8b668c918a401e16fcc8d"
+      }, {
+        "name" : "测试2",
+        "children" : [ {
+          "name" : "test21",
+          "uid" : "c7a30585410223d6",
+          "parentUid" : "a5120a00c908a9f9cb2f9a4a89ffa76d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507131,
+            "stop" : 1616381507133,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test22",
+          "uid" : "a132cdf4bee781ce",
+          "parentUid" : "a5120a00c908a9f9cb2f9a4a89ffa76d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507137,
+            "stop" : 1616381507137,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        } ],
+        "uid" : "a5120a00c908a9f9cb2f9a4a89ffa76d"
+      } ],
+      "uid" : "661d96db20349316f1d77431c24bbc46"
+    } ],
+    "uid" : "fc4e37d25f38ffc3239564281cd25d58"
+  }, {
+    "name" : "测试Epic",
+    "children" : [ {
+      "name" : "测试Feature",
+      "children" : [ {
+        "name" : "测试1",
+        "children" : [ {
+          "name" : "test11",
+          "uid" : "604c46d91dc67c41",
+          "parentUid" : "48cfc74bcb8b5acac5f55a00f95dffa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507142,
+            "stop" : 1616381507144,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test12",
+          "uid" : "fb9ed911cfc32f32",
+          "parentUid" : "48cfc74bcb8b5acac5f55a00f95dffa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507180,
+            "stop" : 1616381507186,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test12",
+          "uid" : "11fdb171420baba8",
+          "parentUid" : "48cfc74bcb8b5acac5f55a00f95dffa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507241,
+            "stop" : 1616381507283,
+            "duration" : 42
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "AAA",
+          "uid" : "a7310e628ae717",
+          "parentUid" : "48cfc74bcb8b5acac5f55a00f95dffa2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507425,
+            "stop" : 1616381507426,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        } ],
+        "uid" : "48cfc74bcb8b5acac5f55a00f95dffa2"
+      }, {
+        "name" : "测试2",
+        "children" : [ {
+          "name" : "test21",
+          "uid" : "5873bfe4b2c469c",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507195,
+            "stop" : 1616381507209,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test22",
+          "uid" : "91b52a17c05d5237",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507213,
+            "stop" : 1616381507224,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test22",
+          "uid" : "85640215196d3e09",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507375,
+            "stop" : 1616381507375,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test21",
+          "uid" : "39e16d059ded6606",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507385,
+            "stop" : 1616381507392,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "TUser{name='zw1', age=12, desc='测试1'}", "standalone" ]
+        }, {
+          "name" : "test21",
+          "uid" : "ed79954f01f0d4d8",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507398,
+            "stop" : 1616381507399,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "TUser{name='zw2', age=13, desc='测试2'}", "standalone" ]
+        }, {
+          "name" : "test21",
+          "uid" : "a8b1706871b2fd15",
+          "parentUid" : "86189e0734a1ff9b5c392a6d32779e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507417,
+            "stop" : 1616381507418,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "TUser{name='zw3', age=14, desc='测试3'}", "standalone" ]
+        } ],
+        "uid" : "86189e0734a1ff9b5c392a6d32779e12"
+      } ],
+      "uid" : "f76d7941e166fe3fe507afdddeee2f86"
+    }, {
+      "name" : "测试Feature2",
+      "children" : [ {
+        "name" : "测试1",
+        "children" : [ {
+          "name" : "test11",
+          "uid" : "3497999c0cdea38f",
+          "parentUid" : "9ff0cf8b18fcca33f3235b01cad636ba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507499,
+            "stop" : 1616381507499,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test12",
+          "uid" : "634d6e0e682a0f3c",
+          "parentUid" : "9ff0cf8b18fcca33f3235b01cad636ba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507509,
+            "stop" : 1616381507509,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        } ],
+        "uid" : "9ff0cf8b18fcca33f3235b01cad636ba"
+      }, {
+        "name" : "测试2",
+        "children" : [ {
+          "name" : "test21",
+          "uid" : "19d25f8e293fb019",
+          "parentUid" : "0f56b8b882a2f66dbd196bb7ef89e824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507511,
+            "stop" : 1616381507511,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        }, {
+          "name" : "test22",
+          "uid" : "83355f33d0189dd6",
+          "parentUid" : "0f56b8b882a2f66dbd196bb7ef89e824",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616381507513,
+            "stop" : 1616381507513,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "standalone" ]
+        } ],
+        "uid" : "0f56b8b882a2f66dbd196bb7ef89e824"
+      } ],
+      "uid" : "6dcd345c7e68af2bb2667f0c56b25b82"
+    } ],
+    "uid" : "89f192199039fc0423bf906d3b9d887b"
+  } ],
+  "name" : "behaviors"
+}
