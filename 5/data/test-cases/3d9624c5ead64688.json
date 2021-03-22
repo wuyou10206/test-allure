@@ -1,0 +1,92 @@
+{
+  "uid" : "3d9624c5ead64688",
+  "name" : "test22",
+  "fullName" : "test1.Test1.test22",
+  "historyId" : "693a64df73ec5bdbd8d9a7096043fc12",
+  "time" : {
+    "start" : 1616381811217,
+    "stop" : 1616381811218,
+    "duration" : 1
+  },
+  "description" : "aaa",
+  "descriptionHtml" : "<p>aaa</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1616381811215,
+      "stop" : 1616381811215,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test22"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-435"
+  }, {
+    "name" : "thread",
+    "value" : "2791@fv-az132-435.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试2"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d9624c5ead64688.json",
+  "parameterValues" : [ "standalone" ]
+}
