@@ -1,0 +1,118 @@
+{
+  "uid" : "e0fd49189ac370e",
+  "name" : "AAA",
+  "fullName" : "test1.Test1.test11",
+  "historyId" : "617ddd55e93a24a84b8e396af030f825",
+  "time" : {
+    "start" : 1616383159026,
+    "stop" : 1616383159026,
+    "duration" : 0
+  },
+  "description" : "sss",
+  "descriptionHtml" : "<p>sss</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1616383159025,
+      "stop" : 1616383159025,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "sss",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "aaaaa",
+      "time" : {
+        "start" : 1616383159026,
+        "stop" : 1616383159026,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test11"
+  }, {
+    "name" : "parentSuite",
+    "value" : "fesql-v1"
+  }, {
+    "name" : "suite",
+    "value" : "fesql-v1-test1111"
+  }, {
+    "name" : "subSuite",
+    "value" : "test1.Test1"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-498"
+  }, {
+    "name" : "thread",
+    "value" : "2803@fv-az173-498.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "测试1"
+  }, {
+    "name" : "epic",
+    "value" : "测试Epic"
+  }, {
+    "name" : "feature",
+    "value" : "测试Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "env",
+    "value" : "standalone"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0fd49189ac370e.json",
+  "parameterValues" : [ "standalone" ]
+}
