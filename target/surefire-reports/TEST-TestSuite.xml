@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.196" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksProxyHost" value="127.0.0.1"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zhaowei/code/study-zw/test-allure/target/test-classes:/Users/zhaowei/code/study-zw/test-allure/target/classes:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/zhaowei/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/zhaowei/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/zhaowei/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/zhaowei/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/zhaowei/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/zhaowei/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/Users/zhaowei/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhaowei/.m2/repository/org/slf4j/slf4j-log4j12/1.7.19/slf4j-log4j12-1.7.19.jar:/Users/zhaowei/.m2/repository/org/slf4j/slf4j-api/1.7.19/slf4j-api-1.7.19.jar:/Users/zhaowei/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/zhaowei/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/zhaowei/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="https.proxyPort" value="9999"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/zhaowei/code/study-zw/test-allure/target/surefire/surefirebooter3506486149607124613.jar /Users/zhaowei/code/study-zw/test-allure/target/surefire 2021-03-22T10-03-39_872-jvmRun1 surefire399325734250532440tmp surefire_0923755890394294954tmp"/>
+    <property name="http.nonProxyHosts" value="172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost"/>
+    <property name="surefire.test.class.path" value="/Users/zhaowei/code/study-zw/test-allure/target/test-classes:/Users/zhaowei/code/study-zw/test-allure/target/classes:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/zhaowei/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/Users/zhaowei/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/zhaowei/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/zhaowei/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/zhaowei/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/zhaowei/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/zhaowei/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/zhaowei/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar:/Users/zhaowei/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhaowei/.m2/repository/org/slf4j/slf4j-log4j12/1.7.19/slf4j-log4j12-1.7.19.jar:/Users/zhaowei/.m2/repository/org/slf4j/slf4j-api/1.7.19/slf4j-api-1.7.19.jar:/Users/zhaowei/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/zhaowei/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/zhaowei/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zhaowei"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/zhaowei/code/study-zw/test-allure"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/zhaowei/code/study-zw/test-allure/target/surefire/surefirebooter3506486149607124613.jar:/Users/zhaowei/.m2/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="zhaowei"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/zhaowei/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/r6/ly6c8335121dlq6_zfkp2sfm0000gn/T/"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="/Users/zhaowei/code/study-zw/test-allure/target"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="socksProxyPort" value="10000"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/zhaowei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="/Users/zhaowei/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="172.16.0.0/12|*.172.16.0.0/12|127.0.0.1|localhost|*.localhost"/>
+    <property name="http.proxyPort" value="9999"/>
+  </properties>
+  <testcase name="test" classname="test1.Test4" time="0.069"/>
+  <testcase name="test1" classname="test1.Test4" time="0.002"/>
+  <testcase name="HEHEHEH" classname="test2.Test1" time="0.011"/>
+  <testcase name="HEHEHEH" classname="test2.Test1" time="0.005"/>
+  <testcase name="HEHEHEH" classname="test2.Test1" time="0.006"/>
+  <testcase name="HEHEHEH" classname="test2.Test1" time="0.003"/>
+  <testcase name="hahahahaha" classname="test1.Test2" time="0.005"/>
+  <testcase name="hahahahaha" classname="test1.Test2" time="0.004"/>
+  <testcase name="hahahahaha" classname="test1.Test2" time="0.05">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at test1.Test2.test21(Test2.java:43)
+</failure>
+    <system-out><![CDATA[BBBBB
+111
+2021-03-22 10:03:43  [ test1.Test2.test21(Test2.java:42) ] - [ INFO ]  ssss
+]]></system-out>
+  </testcase>
+  <testcase name="hahahahaha" classname="test1.Test2" time="0.002"/>
+  <testcase name="test11" classname="test1.Test3" time="0.002"/>
+  <testcase name="test12" classname="test1.Test3" time="0.002"/>
+  <testcase name="test21" classname="test1.Test3" time="0.006"/>
+  <testcase name="test22" classname="test1.Test3" time="0.002"/>
+  <testcase name="test12" classname="test1.Test1" time="0.039"/>
+  <testcase name="test22" classname="test1.Test1" time="0.002"/>
+  <testcase name="test21" classname="test1.Test1" time="0.01"/>
+  <testcase name="test21" classname="test1.Test1" time="0.003"/>
+  <testcase name="test21" classname="test1.Test1" time="0.003"/>
+  <testcase name="test11" classname="test1.Test1" time="0.003"/>
+</testsuite>

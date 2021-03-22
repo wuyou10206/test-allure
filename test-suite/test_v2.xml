@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fesql-v2" parallel="false" thread-count="2">
+    <test name="fesql-v1-test1111">
+        <parameter name="env" value="standalone"/>
+        <packages>
+            <package name="test1"/>
+            <package name="test2"/>
+        </packages>
+    </test>
+
+    <test name="fesql-v1-test222">
+        <parameter name="env" value="standalone"/>
+        <packages>
+            <package name="test1"/>
+            <package name="test2"/>
+        </packages>
+    </test>
+</suite>

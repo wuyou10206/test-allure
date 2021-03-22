@@ -1,0 +1,45 @@
+name: TEST-ALLURE
+on: [push, pull_request]
+jobs:
+  run_test:
+    runs-on: ubuntu-latest
+#    container:
+#      image: ghcr.io/4paradigm/centos6_gcc7_fesql:0.0.1-legacy
+#      credentials:
+#        username: ${{ github.actor }}
+#        password: ${{ secrets.CR_PAT_ZW }}
+    steps:
+      - uses: actions/checkout@v1
+      - name: run_test
+        run: mvn clean test
+      - name: allure-report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: target/allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.CR_PAT_ZW }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+#  delete_artifact:
+#    needs: [fesql_auto_test_level_0]
+#    runs-on: ubuntu-latest
+#    if: always()
+#    steps:
+#      - uses: geekyeggo/delete-artifact@v1
+#        with:
+#          name: |
+#            fedb
+#            sql_sdk_test
+#            sql_cluster_test
+#            libsql_jsdk.so
+#            sql_pysdk
+#            python-whl
+#          failOnError: false
