@@ -1,0 +1,403 @@
+{
+  "6ea75b4753f0f51c917ae2bee11a4ca8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6917d51c6992742a",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/6917d51c6992742a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685895,
+        "stop" : 1616394685896,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b1486a78d3bd4353c4aface013f345ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dac77271955d7088",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/dac77271955d7088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685985,
+        "stop" : 1616394685986,
+        "duration" : 1
+      }
+    } ]
+  },
+  "62cef1897690c47880e3bbef71a4e9da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "132588be08e84a6b",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/132588be08e84a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685679,
+        "stop" : 1616394685680,
+        "duration" : 1
+      }
+    } ]
+  },
+  "99472b386cdc252586125eead06e0e68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea5e21d48def8ea3",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/ea5e21d48def8ea3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685990,
+        "stop" : 1616394685991,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7754a315e8296863538f46356fba3b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82ed7d332869aead",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/82ed7d332869aead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685777,
+        "stop" : 1616394685804,
+        "duration" : 27
+      }
+    } ]
+  },
+  "5bc0445de624b04c3897732e309b118c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a38d988eec08c6a3",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/a38d988eec08c6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685770,
+        "stop" : 1616394685770,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f59a39e35c8a5d78d5a10d4d530a4b86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc39d65f791be819",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/bc39d65f791be819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685728,
+        "stop" : 1616394685729,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e342f23c5f8778f1f50f05e0bd042f45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1a16c14b553be88",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/d1a16c14b553be88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685696,
+        "stop" : 1616394685698,
+        "duration" : 2
+      }
+    } ]
+  },
+  "7831387ab6e7ac86b0286f775c0c84b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9709863e420f598",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/a9709863e420f598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685687,
+        "stop" : 1616394685688,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9a97a759cc33dfc6ce2e81c498e29ac7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd3916b107b371f3",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/cd3916b107b371f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685911,
+        "stop" : 1616394685912,
+        "duration" : 1
+      }
+    } ]
+  },
+  "693a64df73ec5bdbd8d9a7096043fc12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12db9ffa30ac66cd",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/12db9ffa30ac66cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685875,
+        "stop" : 1616394685876,
+        "duration" : 1
+      }
+    } ]
+  },
+  "98196faaacc74b39e754fb31ff16605" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0a87f9ba338f9b0",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/c0a87f9ba338f9b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685648,
+        "stop" : 1616394685649,
+        "duration" : 1
+      }
+    } ]
+  },
+  "617ddd55e93a24a84b8e396af030f825" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9beeb7c8365297c9",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/9beeb7c8365297c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685917,
+        "stop" : 1616394685918,
+        "duration" : 1
+      }
+    } ]
+  },
+  "95a56e2b7cfe306d2a63e18615fbdb28" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68f20db285bd2dcb",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/68f20db285bd2dcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685691,
+        "stop" : 1616394685692,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1f114daf8b1c0b93077967a9cbb4c2d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bcb44be45ac12ad",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/5bcb44be45ac12ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685884,
+        "stop" : 1616394685890,
+        "duration" : 6
+      }
+    } ]
+  },
+  "cb294f9a548f284b62026757e4e940a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "399100a43cdc34d6",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/399100a43cdc34d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685673,
+        "stop" : 1616394685674,
+        "duration" : 1
+      }
+    } ]
+  },
+  "928411e5dc1c2b6f1246b2b1bb2af61b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1556e13f6c1bf375",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/1556e13f6c1bf375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685520,
+        "stop" : 1616394685536,
+        "duration" : 16
+      }
+    } ]
+  },
+  "887058625521822db344ae1f4088db7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94c1b42ab32fdba6",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/94c1b42ab32fdba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685987,
+        "stop" : 1616394685988,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2816f7b97af46de1c505c938127e6aa3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98d4d371083f2188",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/98d4d371083f2188",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1616394685734,
+        "stop" : 1616394685764,
+        "duration" : 30
+      }
+    } ]
+  },
+  "928f8d35f5d07089de2ce54e3419d91c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "453d1a180e7c9e68",
+      "reportUrl" : "https://wuyou10206.github.io/test-allure/14//#testresult/453d1a180e7c9e68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616394685972,
+        "stop" : 1616394685972,
+        "duration" : 0
+      }
+    } ]
+  }
+}
