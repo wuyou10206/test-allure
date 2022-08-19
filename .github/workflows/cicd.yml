@@ -1,7 +1,13 @@
 name: TEST-ALLURE
-on: [push, pull_request]
+on:
   schedule:
     - cron: '*/3 * * * *'
+  workflow_dispatch:
+    inputs:
+      EXEC_TEST_TYPE:
+        description: 'Which tests need to be executed? The options are all, python, java, batch, cli, standalone-cli and apiserver'
+        required: true
+        default: 'all'
 jobs:
   run_test:
     runs-on: ubuntu-latest
