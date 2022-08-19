@@ -21,6 +21,8 @@ jobs:
       - run: echo "branch:$GITHUB_REF"
       - name: run_test
         run: mvn clean test
+      - name: tar test report
+        run: tar -zcvf allure-results.tar.gz target/allure-results
 #      - name: Get Allure history
 #        uses: actions/checkout@v2
 #        if: always()
@@ -45,7 +47,7 @@ jobs:
 #          PUBLISH_BRANCH: gh-pages
 #          PUBLISH_DIR: allure-history
       - name: 'Send mail'
-        if: always()
+        if: ${{ failure() }}
         uses: dawidd6/action-send-mail@master
         with:
           server_address: smtp.partner.outlook.cn
@@ -57,6 +59,7 @@ jobs:
           to: zw1020688@163.com
           from: GitHub Actions
           content_type: text/plain
+          attachments: allure-results.tar.gz
 
 #      - name: 'Send mail'
 #        if: always()
