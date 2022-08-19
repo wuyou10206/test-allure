@@ -44,3 +44,15 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.CR_PAT_ZW }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+      - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
+        with:
+          server_address: smtp.partner.outlook.cn
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: test Report
+          body: ok
+          to: zw1020688@163.com
+          from: GitHub Actions
+          content_type: text/plain
