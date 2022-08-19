@@ -1,5 +1,5 @@
 name: TEST-ALLURE
-on:
+on: [push, pull_request]
   schedule:
     - cron: '*/3 * * * *'
 jobs:
