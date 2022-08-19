@@ -1,7 +1,7 @@
 name: TEST-ALLURE
 on:
-  schedule:
-    - cron: '*/3 * * * *'
+#  schedule:
+#    - cron: '*/3 * * * *'
   workflow_dispatch:
     inputs:
       EXEC_TEST_TYPE:
@@ -22,6 +22,7 @@ jobs:
       - name: run_test
         run: mvn clean test
       - name: tar test report
+        if: ${{ failure() }}
         run: tar -zcvf allure-results.tar.gz target/allure-results
 #      - name: Get Allure history
 #        uses: actions/checkout@v2
