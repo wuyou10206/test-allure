@@ -48,12 +48,29 @@ jobs:
         if: always()
         uses: dawidd6/action-send-mail@master
         with:
-          server_address: smtp.163.com
-          server_port: 25
+          server_address: smtp.partner.outlook.cn
+          server_port: 587
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: test Report
           body: ok
-          to: zhaowei01@4paradigm.com
+          to: zw1020688@163.com
           from: GitHub Actions
           content_type: text/plain
+
+#      - name: 'Send mail'
+#        if: always()
+#        uses: dawidd6/action-send-mail@master
+#        with:
+#          server_address: smtp.163.com
+#          server_port: 25
+#          username: ${{ secrets.MAIL_USERNAME }}
+#          password: ${{ secrets.MAIL_PASSWORD }}
+#          subject: test Report
+#          body: ok
+#          to: zhaowei01@4paradigm.com
+#          from: GitHub Actions
+#          content_type: text/plain
+
+
+
