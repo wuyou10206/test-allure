@@ -1,5 +1,7 @@
 name: TEST-ALLURE
-on: [push, pull_request]
+on:
+  schedule:
+    - cron: '*/3 * * * *'
 jobs:
   run_test:
     runs-on: ubuntu-latest
